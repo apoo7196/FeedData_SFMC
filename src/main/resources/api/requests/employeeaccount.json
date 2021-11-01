@@ -1,0 +1,16 @@
+[
+  {
+"employee_id":"0001",
+"firstName":"Apoorva",
+"lastName":"Kamerkar",
+"contact":"9876789098",
+"lastUpdated":"2021-10-31T08:58:09.430Z"
+  },
+  {
+    "employee_id":"0002",
+"firstName":"Adithya",
+"lastName":"Sharma",
+"contact":"9876709098",
+"lastUpdated":"2021-10-31T09:58:09.430Z"
+  }
+]
