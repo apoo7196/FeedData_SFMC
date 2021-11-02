@@ -21,7 +21,7 @@ payload map ( payload01 , indexOfPayload01 ) -> {
 	}]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<salesforce:create doc:name="Create" doc:id="90b73793-0dc4-4ae4-aee4-07fc86054b30" config-ref="Salesforce_Config" type="Employee__c"/>
+		<salesforce:create doc:name="Create" doc:id="90b73793-0dc4-4ae4-aee4-07fc86054b30" config-ref="Salesforce_Config" type="Employee__c" />
 		<set-payload value='#[output application/json --- {"message": "Record added successfully"}]' doc:name="Set Payload" doc:id="807e3e7b-849f-4a4d-af39-b4de3dec1c7a" />
 	</flow>
 </mule>
